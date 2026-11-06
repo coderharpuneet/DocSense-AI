@@ -63,7 +63,6 @@ def load_pdf(file_path: str) -> list[dict[str, Any]]:
           logger.warning("Unexpected error while reading PDF %s: %s", file_path, exc)
           return []
 
-
 # Example output:
 # [
 #     {
